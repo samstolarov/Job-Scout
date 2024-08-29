@@ -1,0 +1,20 @@
+# Ignore these files and directories
+.DS_Store
+.idea/
+.venv/
+venv/
+js-venv2/
+js-3
+env
+.env
+__pycache__/*
+task_sched_dbs/__pycache__/*
+__pycache__/
+task_sched_dbs/__pycache__/
+# Ignore Python bytecode files and __pycache__ directories
+__pycache__/
+*.pyc
+
+# Ignore specific bytecode files in the task_sched_dbs directory
+task_sched_dbs/__pycache__/
+task_sched_dbs/*.pyc
